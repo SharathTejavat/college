@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafting a User-Friendly University Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="./sharath.png" type="image/png">
+
+    <link rel="stylesheet" href="style.css">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="./logo.png" alt=""></a>
+        <div class="navbar" id="nav-bar">
+          <i class="bi bi-x" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="index.html">COURSES</a></li>
+            
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+  </section>
+<section  class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30354.262945366256!2d79.5266203!3d18.01207145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1721922241993!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</section>
+
+<section  class=" cnt-us">
+    <div class="row">
+         <div class="cnt-col">
+           <div>
+            <i  class="fa fa-home"></i>
+            <span>
+                <h4>KU Cross, Gopalpur.</h4>
+                <span>FCI1 colony, Hanamkonda</span>
+            </span>
+           </div>
+           <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h4>+91 123456654</h4>
+                <p> 10AM to 4PM</p>
+               
+            </span>
+           </div>
+           <div>
+            <i class="fa fa-envelope"></i>
+            <span>
+                
+                <p>Info123@gmail.com</p>
+            </span>
+           </div>
+         </div>
+         <div class="cnt-col">
+            <form >
+
+                <input type="text" placeholder="Enter Your Name " required>
+                <input type="email" placeholder="enter Your email" required>
+                <input type="text" placeholder="Enter Your Subject" required>
+                <textarea rows="10" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            
+            
+            
+            </form>
+            
+         </div>
+    </div>
+</section>
+ 
+
+ <section  class="footer">
+  <h4>About Us</h4>
+  
+    <p>We are a leading educational institution dedicated to providing quality education and fostering intellectual growth. </p>
+    <p>Our campus provides state-of-the-art facilities, a vibrant community, and a commitment to student success. <br> Join us to be part of a prestigious institution with a global perspective and a commitment to excellence.</p>
+     <div class="icons">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/@sharath_1203" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/sharathtejavath28" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+<div class="footer-bottom">
+  <p>&copy; 2024 Sharath Tejavath . All rights reserved.</p>
+</div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!---------JavaScript---------->
+<script>
+
+  var navLinks=document.getElementById("nav-bar");
+  function showMenu(){
+    navLinks.style.right="0";
+  }
+  function hideMenu(){
+    navLinks.style.right="-200px";
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafting a User-Friendly University Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="./sharath.png" type="image/png">
+
+    <link rel="stylesheet" href="style.css">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="sub-header">
+      <nav>
+        <a href="index.html"> <img src="./logo.png" alt=""></a>
+        <div class="navbar" id="nav-bar">
+          <i class="bi bi-x" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="index.html">COURSES</a></li>
+
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="bi bi-list" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+  </section>
+ 
+     <div class="abt-us">
+             <div class="row">
+
+                  <div class="abt-col">
+                     <h1>WE ARE THE WORLD's LARGEST UNIVERSITY</h1>
+                     <p>
+
+                        Our university is dedicated to providing a high-quality education to students from all backgrounds.  <br>  
+                        We offer a wide range of courses and programs designed to help students achieve their academic and career goals. Our vibrant campus community is enriched with engaging extracurricular activities, student clubs, and a supportive environment that fosters holistic development.  <br>
+                         Join us to embark on a journey of intellectual growth and personal development, and become part of our prestigious institution committed to academic excellence and a promising future.
+                     </p>
+                     <a href="index.html" class="hero-btn  red-btn"> EXPLORE NOW</a>
+                  </div>
+                  <div class="abt-col">
+                    <img src="./about.jpg" alt="about us image">
+                  </div>
+             </div>
+
+
+     </div>
+
+ 
+
+ <section  class="footer">
+  <h4>About Us</h4>
+  
+    <p>We are a leading educational institution dedicated to providing quality education and fostering intellectual growth. </p>
+    <p>Our campus provides state-of-the-art facilities, a vibrant community, and a commitment to student success. <br> Join us to be part of a prestigious institution with a global perspective and a commitment to excellence.</p>
+     <div class="icons">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/@sharath_1203" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/sharathtejavath28" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+  </div>
+<div class="footer-bottom">
+  <p>&copy; 2024 Sharath Tejavath . All rights reserved.</p>
+</div>
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!---------JavaScript---------->
+<script>
+
+  var navLinks=document.getElementById("nav-bar");
+  function showMenu(){
+    navLinks.style.right="0";
+  }
+  function hideMenu(){
+    navLinks.style.right="-200px";
+  }
+</script>
+</body>
+</html>
